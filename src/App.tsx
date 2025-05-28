@@ -10,6 +10,9 @@ import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
+import Datenschutz from './pages/Datenschutz';
+import Impressum from './pages/Impressum';
+import AGB from './pages/AGB';
 
 // ScrollToTop component to handle scroll behavior
 function ScrollToTop() {
@@ -34,6 +37,9 @@ function App() {
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:id" element={<BlogPost />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="datenschutz" element={<Datenschutz />} />
+          <Route path="impressum" element={<Impressum />} />
+          <Route path="agb" element={<AGB />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
