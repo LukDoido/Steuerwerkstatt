@@ -7,7 +7,7 @@ interface LogoProps {
 
 const Logo: React.FC<LogoProps> = ({ className = '' }) => {
   return (
-    <Link to="/" className={`block ${className}`}>
+    <Link to="/\" className={`block ${className}`}>
       <img 
         src="https://i.imgur.com/ZwuXnNJ.png" 
         alt="Steuerwerkstatt Logo" 
